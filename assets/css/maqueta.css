@@ -1,0 +1,29 @@
+.azul {
+    background-color: #cfe2ff;
+    height: 90px;
+}
+
+.amarillo {
+    background-color: #fff3cd;
+    height: 70px;
+}
+
+.verde-lateral {
+    background-color: #66aa11;
+    min-height: 350px;
+}
+
+.rojo {
+    background-color: #f8d7da;
+    height: 110px;
+}
+
+.verde {
+    background-color: #d1e7dd;
+    height: 160px;
+}
+
+.azul-oscuro {
+    background-color: #0dcaf0;
+    height: 90px;
+}

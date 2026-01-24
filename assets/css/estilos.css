@@ -1,0 +1,31 @@
+.azul {
+    background-color: #cfe2ff;
+    height: 80px;
+}
+
+.amarillo {
+    background-color: #fff3cd;
+    height: 70px;
+}
+
+.verde-col {
+    background-color: #66aa11;
+    min-height: 300px;
+}
+
+.rojo {
+    background-color: #f8d7da;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.verde {
+    background-color: #d1e7dd;
+    height: 150px;
+    border: 1px solid green;
+}
+
+.azul-oscuro {
+    background-color: #0dcaf0;
+    height: 80px;
+}

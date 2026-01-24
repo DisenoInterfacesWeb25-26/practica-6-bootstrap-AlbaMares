@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <!-- Link de Bootstrap -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+
+<!-- Header / Menú -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+            <img src="https://www.eniun.com/wp-content/uploads/ENIUN@2x.png" height="40">
+        </a>
+
+        <!-- Botón móvil -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                        Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Diseño</a></li>
+                        <li><a class="dropdown-item" href="#">Marketing</a></li>
+                        <li><a class="dropdown-item" href="#">SEO</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="tabla.html">Tabla</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+</header>
+
+<!-- Contenido: Tabla -->
+<main class="container my-4">
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover table-sm">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Primera profesión</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td>1</td>
+                    <td>Primer nombre</td>
+                    <td>Primera profesión</td>
+                    <td>email@email.com</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Segundo nombre</td>
+                    <td>Segunda profesión</td>
+                    <td>email@email.com</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tercer nombre</td>
+                    <td>Tercera profesión</td>
+                    <td>email@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-info text-white p-4 mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col text-start">
+                <p class="mb-0">Eniun.com</p>
+            </div>
+            <div class="col text-end">
+                <p class="mb-0">Política de privacidad y cookies</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap js para su funcionamiento -->
+<script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
